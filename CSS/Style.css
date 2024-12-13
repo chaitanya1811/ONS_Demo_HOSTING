@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: wheat;
+    font-family: 'ubuntu' sans-serif ;
+}
+
+.nav-list li a:hover{
+    color: rgb(250, 245, 245);
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.rightNav{
+    /* background-color: violet; */
+    width: 50%;
+    text-align: right;
+    padding: 0 10px;
+    visibility: hidden;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.8) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 90vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 70%;
+}
+
+.secondHalf img{
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.small-text{
+    font-size: 15px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.btn-sm{
+    padding: 8px    ;
+    vertical-align: middle;
+}
+
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Lato', sans-serif; 
+}
+
+.section-Left{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 65px;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+/* This part of the CSS focuses on the Container for contact us */
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.contact-us {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e8e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h1,
+.contact-us h2,
+.contact-us ul,
+.contact-us p {
+    background-color: #d5d0d0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+h2 {
+    color: #0c0c0c;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* this one is for heading */
+
+h1 {
+    color: #0f0f0f;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.products{
+    background-color: wheat;
+}
+
+.visionaries{
+    background-color: rgb(242, 241, 240);
+}
+
+/* for mission and vision */
+
+.mission, .vision, .journey {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5ecec;
+    border-radius: 5px;
+}
+
+.mission h3, .vision h3 {
+    color: #070707;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.terms{
+    padding-bottom: 60px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: #ede9e9;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.Manuj{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.Shivam{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.ghee{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.Oil{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.Dalda{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.sugar{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}
+
+.rice{
+    margin: 40px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 26px;
+}

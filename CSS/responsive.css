@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1100px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 500px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .section-Left{
+        padding-top: 50%;
+        padding-bottom: 20%;
+    }
+    .paras{
+        padding: 0%;
+    }
+    .terms{
+        padding-top: 30%;
+    }
+    .rice{
+        padding-top: 60%;
+        padding-bottom: 20%;
+    }
+    .sugar{
+        padding-top: 60%;
+        padding-bottom: 20%;
+    }
+    .ghee{
+        padding-top: 30%;
+        padding-bottom: 20%;
+    }
+    .oil{
+        padding-top: 20%;
+        padding-bottom: 100%;
+    }
+    .Dalda{
+        padding-top: 20%;
+        padding-bottom: 30%;
+    }
+}
